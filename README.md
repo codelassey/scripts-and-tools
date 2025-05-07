@@ -1,4 +1,6 @@
-This repository contains scripts I create for cybersecurity automation.
+
+# Work in Progress 🚧
+This section is currently under construction. Stay tuned for exciting updates!
 
 ## ⚙️ Contents
 Under Construction
