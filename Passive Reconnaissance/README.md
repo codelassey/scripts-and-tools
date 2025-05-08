@@ -33,7 +33,7 @@ Please ensure the following tools are installed on your system:
 - **theHarvester**
 - **dnsrecon**
 
-### Installation Commands (optional)
+### Installation
 
 ```bash
 # Update package lists
