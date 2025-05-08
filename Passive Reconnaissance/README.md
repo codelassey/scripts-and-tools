@@ -1,5 +1,7 @@
 # DOMAIN RECON
 
+![Screenshot](Images/Screenshot.png)
+
 A simple Bash script to automate passive reconnaissance for penetration testing and cybersecurity research.
 
 ## Features
