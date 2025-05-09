@@ -47,11 +47,18 @@ sudo apt install whois dnsutils theharvester dnsrecon -y
 ```
 
 ## How To Run
+Clone the repository
 ```
-# Make the script executable
-chmod +x osint_recon.sh
+git clone https://github.com/codelassey/scripts-and-tools.git
+cd Passive\ Reconnaissance/
 ```
+
+Make the script executable
 ```
-# Run the script
-./osint_recon.sh
+chmod +x passive-recon.sh
+```
+
+Run the script
+```
+./passive-recon.sh
 ```
