@@ -42,12 +42,8 @@ Please ensure the following tools are installed on your system:
 sudo apt update
 ```
 ```
-# Install basic networking tools
-sudo apt install whois dnsutils -y
-```
-```
-# Install theHarvester and dnsrecon (if available)
-sudo apt install theharvester dnsrecon -y
+# Install tools
+sudo apt install whois dnsutils theharvester dnsrecon -y
 ```
 
 ## How To Run
