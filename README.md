@@ -3,7 +3,7 @@
 This section is currently under construction. Stay tuned for exciting updates!
 
 ## ⚙️ Contents
-Under Construction
+[Active Recon](https://github.com/codelassey/scripts-and-tools/tree/main/Active%20Reconnaissance)
 
 ## 🛠️ Skills Practiced
 - Scripting for cybersecurity tasks
