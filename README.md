@@ -2,10 +2,12 @@
 # Work in Progress 🚧
 This section is currently under construction. Stay tuned for exciting updates!
 
-## ⚙️ Contents
+## Contents
 [Active Recon](https://github.com/codelassey/scripts-and-tools/tree/main/Active%20Reconnaissance)
 
-## 🛠️ Skills Practiced
+[Passive Recon](https://github.com/codelassey/scripts-and-tools/tree/main/Passive%20Reconnaissance)
+
+## Skills Practiced
 - Scripting for cybersecurity tasks
 - Network reconnaissance
   
