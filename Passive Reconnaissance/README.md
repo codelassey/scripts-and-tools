@@ -62,3 +62,5 @@ Run the script
 ```
 ./passive-recon.sh
 ```
+
+[Connect WIth Me On LinkedIn](https://www.linkedin.com/in/prince-lassey-b90b80197/)
