@@ -29,8 +29,8 @@ bash dir-bruteforce.sh "target"
 echo ""
 bash detect-web-server.sh "target"
 
-echo ""
-bash vulnerability-scan.sh "target"
+#echo ""
+#bash vulnerability-scan.sh "target"
 
 echo ""
 bash ftp-enum.sh "target"
