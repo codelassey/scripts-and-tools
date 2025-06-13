@@ -12,7 +12,7 @@ mkdir -p results
 echo ""
 
 echo "Starting Directory Bruteforce on $target... "
-
+#uses gobuster for bruteforcing
 gobuster dir -u "$target" -w /usr/share/wordlists/dirb/common.txt -o  "results/$(echo $target | tr '/' '_')dir-bruteforce.txt" > /dev/null 2>&1
 
 echo "=========================================================================================================="
