@@ -3,60 +3,64 @@
 ![Screenshot](Images/Screenshot.png)
 
 A simple Bash script to automate passive reconnaissance for penetration testing and cybersecurity research.
+Features
 
-## Features
-
-- **WHOIS lookup**  
+- WHOIS lookup
   Gathers registration details of the target domain/IP, including owner information, name servers, and contact details.
 
-- **Nslookup**  
+- Nslookup
   Resolves domain names to IP addresses and retrieves basic DNS information.
 
-- **Host lookup**  
+- Host lookup
   Provides detailed information about the DNS records associated with a domain, such as mail servers and name servers.
 
-- **DIG DNS queries**  
-  Performs advanced DNS queries to gather extensive DNS record information (A, MX, TXT, etc.).
+- DIG
+  Performs advanced DNS queries to gather extensive DNS record information.
 
-- **theHarvester**  
-  Harvests email addresses, subdomains, hosts, and employee names from public sources like search engines and databases.
+- Subfinder
+  Enumerates subdomains passively using public sources, helping identify additional attack surfaces for the target domain.
 
-- **dnsrecon**  
-  Enumerates DNS records and zones, checks for DNS misconfigurations, and performs brute-forcing on DNS subdomains.
+- theHarvester
+  Harvests email addresses, subdomains, hosts, and employee names from public sources.
 
----
 
-## Tools Required Before Running
 
-Please ensure the following tools are installed on your system:
+## Tools Required 
+Before Running, please ensure the following tools are installed on your system:
+- whois
+- dnsutils (for nslookup, host, dig)
+- subfinder
+- theHarvester
 
-- **whois**
-- **dnsutils** (for `nslookup`, `host`, `dig`)
-- **theHarvester**
-- **dnsrecon**
-
-### Installation
-
-```bash
-# Update package lists
+## Installation
+#### Update package lists
+```
 sudo apt update
 ```
+### Install tools
 ```
-# Install tools
-sudo apt install whois dnsutils theharvester dnsrecon -y
+sudo apt install whois dnsutils theharvester -y
+```
+### Install Subfinder
+```
+sudo apt install subfinder
 ```
 
 ## How To Run
-Clone the repository
+### Clone the repository
 ```
 git clone https://github.com/codelassey/scripts-and-tools.git
-cd Passive\ Reconnaissance/
+cd scripts-and-tools/Passive\ Reconnaissance/
 ```
-
-Make the script executable
+### Make the script executable
 ```
 chmod +x passive-recon.sh
 ```
+### Run the script
+```
+./passive-recon.sh
+```
+
 
 Run the script
 ```
