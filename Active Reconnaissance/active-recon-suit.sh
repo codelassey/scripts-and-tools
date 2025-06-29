@@ -9,34 +9,34 @@ figlet "Active Recon Suit"
 echo "======================================================================="
 
 echo ""
-bash host-discovery.sh "target"
+bash host-discovery.sh "$target"
 
 echo ""
-bash port-scan.sh "target"
+bash port-scan.sh "$target"
 
 echo ""
-bash detect-os.sh "target"
+bash detect-os.sh "$target"
 
 echo ""
-bash service-detection.sh "target"
+bash service-detection.sh "$target"
 
 echo ""
-bash smb-enumeration.sh "target"
+bash smb-enumeration.sh "$target"
 
 echo ""
-bash dir-bruteforce.sh "target"
+bash dir-bruteforce.sh "$target"
 
 echo ""
-bash detect-web-server.sh "target"
+bash detect-web-server.sh "$target"
 
 #echo ""
-#bash vulnerability-scan.sh "target"
+#bash vulnerability-scan.sh "$target"
 
 echo ""
-bash ftp-enum.sh "target"
+bash ftp-enum.sh "$target"
 
 echo ""
-bash ssh-enum.sh "target"
+bash ssh-enum.sh "$target"
 
 echo ""
 echo "==================================================================="
